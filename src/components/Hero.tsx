@@ -8,7 +8,7 @@ const Hero = () => {
     <WordFadeIn words="Taste Which You Love!" /></p>
     <span className="whitespace-pre-wrap text-center text-2xl tracking-tighter">
       <WordFadeIn className="text-2xl font-thin m-2" words="Chinese | Cheetandi | Indian | Everthing
-      from your favourite kitchen to your door steps"/>
+      from your favourite kitchen to your door"/>
     </span>
       <Ripple />
     </div>
