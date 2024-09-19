@@ -1,4 +1,3 @@
-import { div } from "framer-motion/client";
 import landingImage from "../assets/landing.png"
 import appDownload from "../assets/appDownload.png"
 
