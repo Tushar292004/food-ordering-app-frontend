@@ -1,7 +1,6 @@
 import { FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
-import Restaurant from '../../../../backend/src/models/restaurant';
 import { Input } from "@/components/ui/input";
-import { useForm, useFormContext } from "react-hook-form";
+import { useFormContext } from "react-hook-form";
 
 const DetailsSection = () => {
     const { control } = useFormContext();
