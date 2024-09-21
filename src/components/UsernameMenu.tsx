@@ -19,17 +19,24 @@ const UsernameMenu = () => {
             <DropdownMenuContent>
                 <DropdownMenuItem>
                     <Link
+                        to="/manage-restaurant"
+                        className="font-semibold">
+                        Manage Restaurant
+                    </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                    <Link
                         to="/user-profile"
-                        className="font-bold">
+                        className="font-semibold">
                         User Profile
                     </Link>
                 </DropdownMenuItem>
-                <Separator/>
+                <Separator />
                 <DropdownMenuItem>
-                    <Button 
-                    className="flex flex-1 font-bold"
-                    //logout inbuilt auth0 function called
-                    onClick={()=> logout()}
+                    <Button
+                        className="flex flex-1 font-bold" 
+                        //logout inbuilt auth0 function called
+                        onClick={() => logout()}
                     >Log Out</Button>
                 </DropdownMenuItem>
             </DropdownMenuContent>

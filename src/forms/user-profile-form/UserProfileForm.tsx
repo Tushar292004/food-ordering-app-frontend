@@ -85,7 +85,7 @@ const UserProfileForm = ({
                             <FormItem className="flex-1">
                                 <FormLabel>Address Line 1</FormLabel>
                                 <FormControl>
-                                    <Input {...field} className=" border-primary" />
+                                    <Input {...field} className="border-primary" />
                                 </FormControl>
                                 <FormMessage />
                             </FormItem>
