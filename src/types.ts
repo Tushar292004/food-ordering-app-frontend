@@ -1,3 +1,4 @@
+import Restaurant from '../../backend/src/models/restaurant';
 export type User = {
     _id: string;
     email: string;
@@ -6,4 +7,23 @@ export type User = {
     city: string;
     country: string;
 };
-   
+
+export type MenuItem = {
+    _id: string;
+    name: string;
+    price: number;
+}
+
+export type Restaurant = {
+    _id: string;
+    user: string;
+    restaurantName: string;
+    city: string;
+    country: string;
+    deliveryPrice: string;
+    estimatedDeliveryTime: number;
+    cuisines: string[];
+    menuItems: MenuItem[];
+    iamgeUrl : string;
+    lastUpdated: string;
+}
