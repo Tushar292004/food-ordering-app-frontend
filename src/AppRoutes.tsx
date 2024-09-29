@@ -35,7 +35,8 @@ const AppRoutes = () => {
 <Route
                         path='/manage-restaurant'
                         element={
-                            <Layout><ManageRestaurantPage /></Layout>
+                            <Layout>
+                                <ManageRestaurantPage /></Layout>
                         } />
                 </Route>
 
