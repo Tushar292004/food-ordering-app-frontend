@@ -11,7 +11,7 @@ export type MenuItem = {
     _id: string;
     name: string;
     price: number;
-}
+};
 
 export type Restaurant = {
     _id: string;
@@ -23,6 +23,6 @@ export type Restaurant = {
     estimatedDeliveryTime: number;
     cuisines: string[];
     menuItems: MenuItem[];
-    iamgeUrl : string;
+    imageUrl: string;
     lastUpdated: string;
-}
+};
