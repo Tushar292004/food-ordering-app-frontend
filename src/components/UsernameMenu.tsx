@@ -17,6 +17,13 @@ const UsernameMenu = () => {
                 {user?.email ? user.email.split('@')[0] : ''}
             </DropdownMenuTrigger>
             <DropdownMenuContent>
+            <DropdownMenuItem>
+                    <Link
+                        to="/"
+                        className="font-semibold">
+                        Home
+                    </Link>
+                </DropdownMenuItem>
                 <DropdownMenuItem>
                     <Link
                         to="/manage-restaurant"
